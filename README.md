@@ -31,7 +31,11 @@
 	```
 	export SPARK_HOME=~/spark-1.6.1
 	```
-
+	
+	Build Spark from maven
+	```
+	build/mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=24.0 -DskipTests clean package
+	```
 
   OPTION 2: Download pre-built Spark via Hadoop version
 
