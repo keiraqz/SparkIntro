@@ -17,6 +17,7 @@
 	```
 	export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_72.jdk/Contents/Home
 	```
+	Note: If you don't have Java, you will need to download it, Java 7 or above prefered.
 
 
 2. OPTION 1: Download spark source code (will require Maven build manager)
@@ -42,6 +43,11 @@
 	Build Spark from maven
 	```
 	build/mvn -Pyarn -Phadoop-2.4 -Dhadoop.version=24.0 -DskipTests clean package
+	```
+	
+	If that doesn't work, try building with sbt assembly
+	```
+	build/sbt assembly
 	```
 
   OPTION 2: Download pre-built Spark via Hadoop version
