@@ -1,5 +1,12 @@
 ## Intro to Spark
 
+
+### Presentation Slides
+
+- Thanks to [Amy](https://github.com/eastcoastdaffodil) for making the slides, which can be downloaded from here:
+[https://github.com/keiraqz/SparkIntro/blob/master/wwc_sparkintro.pdf](https://github.com/keiraqz/SparkIntro/blob/master/wwc_sparkintro.pdf)
+
+
 ### Install Spark on Local Machine
 
 1. Set the JAVA_HOME environment variable pointing to a Java installation
